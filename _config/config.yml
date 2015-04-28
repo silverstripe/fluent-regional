@@ -1,0 +1,11 @@
+---
+Name: regionalfluent
+After: '#fluentextensions'
+---
+
+LeftAndMain:
+  extensions:
+    - RegionalLeftAndMain
+Fluent:
+  extensions:
+    - RegionalFluent

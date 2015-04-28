@@ -1,0 +1,16 @@
+---
+Name: regionalconfig
+After: '#fluentconfig'
+---
+Fluent:
+  # Disable auto-scaffolding of text fields
+  data_exclude:
+    - 'Text'
+    - 'Varchar'
+    - 'HTMLText'
+    - 'HTMLVarchar'
+SiteTree:
+  extensions:
+    - FluentFilteredExtension
+  translate:
+    - Content
