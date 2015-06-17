@@ -7,7 +7,7 @@ $routes = Config::inst()->get('Director','rules');
 Config::inst()->remove('Director', 'rules');
 $routes['$URLSegment//$Action/$ID/$OtherID'] = array (
 			'Controller' => 'ModelAsController',
-			'l' => 'en_NZ'
+			'l' => 'en_CA'
 		);
 
 Config::inst()->update('Director', 'rules', $routes);
