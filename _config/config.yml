@@ -9,3 +9,6 @@ LeftAndMain:
 Fluent:
   extensions:
     - RegionalFluent
+FluentRootURLController:
+  extensions:
+    - FluentRootURLControllerExtension

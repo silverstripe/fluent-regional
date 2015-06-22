@@ -9,6 +9,8 @@ Fluent:
     - 'Varchar'
     - 'HTMLText'
     - 'HTMLVarchar'
+  detect_locale: false
+  remember_locale: false
 SiteTree:
   extensions:
     - FluentFilteredExtension
