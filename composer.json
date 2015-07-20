@@ -6,7 +6,7 @@
 	"license": "BSD-3-Clause",
 	"homepage": "https://github.com/silverstripe/silverstripe-regional/",
 	"require": {
-   		"tractorcow/silverstripe-fluent": "3.2.*"
+   		"tractorcow/silverstripe-fluent": "3.2.2"
 	},
 	"authors":[
 		{
@@ -14,5 +14,6 @@
 			"homepage": "http://leftandmain.com",
 			"email" : "aaron@silverstripe.com"
 		}
-	]
+	],
+	"minimum-stability": "dev"
 }
