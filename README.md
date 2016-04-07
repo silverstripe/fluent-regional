@@ -3,10 +3,10 @@
 An extension for Fluent that allows content to be split into regions, which are just locales with different semantics.
 
 ## Requirements
-
-silverstripe/cms:3.1.*
-tractorcow/fluent:3.2.*
-
+```json
+"silverstripe/cms": "^3.1"
+"tractorcow/silverstripe-fluent": "^3.4"
+```
 ## Configuration
 
 All of the configuration is done under Fluent, since that's the driving engine behind the regions.
